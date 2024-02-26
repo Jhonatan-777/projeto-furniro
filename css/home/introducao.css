@@ -1,0 +1,54 @@
+.introducao-bg {
+  background: url("../../img/bg/bg-home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.introducao {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+.introducao-conteudo {
+  padding: 60px 40px 40px 40px;
+  position: absolute;
+  background-color: #fff3e3;
+  border-radius: 10px;
+}
+.introducao-conteudo span {
+  font-size: 1rem;
+  font-weight: var(--semibold);
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  color: #333333;
+  margin-bottom: 4px;
+}
+.introducao-conteudo h1 {
+  width: 12ch;
+  font-size: 3.25rem;
+  line-height: 4.063rem;
+  font-weight: var(--bold);
+  text-transform: capitalize;
+  color: #b88e2f;
+  margin-bottom: 17px;
+}
+.introducao-conteudo p {
+  width: 48ch;
+  font-size: 1.125rem;
+  font-weight: var(--medium);
+  color: #333333;
+  margin-bottom: 47px;
+}
+.introducao-conteudo button {
+  border: none;
+  background-color: #b88e2f;
+  width: 220px;
+  height: 70px;
+  font-size: 1rem;
+  font-weight: var(--bold);
+  color: #ffffff;
+}

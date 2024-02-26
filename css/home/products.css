@@ -1,0 +1,99 @@
+.products h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: var(--bold);
+  color: #3a3a3a;
+  margin-bottom: 32px;
+}
+.products > .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.card-product {
+  position: relative;
+  max-width: 285px;
+  display: flex;
+  flex-direction: column;
+  background: #f4f5f7;
+}
+.attention {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: var(--medium);
+}
+.attention.discount {
+  background: #e97171;
+}
+.attention.new {
+  text-transform: capitalize;
+  background: #2ec1ac;
+}
+.card-product .card-image {
+  width: 285px;
+  height: 300px;
+}
+.card-product .card-image img {
+  width: 100%;
+  height: 100%;
+}
+.card-product .card-info {
+  padding: 16px 16px 20px 16px;
+}
+.card-product .card-info .card-title {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: var(--semibold);
+  color: #3a3a3a;
+  margin-bottom: 8px;
+}
+.card-product .card-info .card-desc {
+  font-size: 1rem;
+  font-weight: var(--medium);
+  color: #898989;
+  margin-bottom: 8px;
+}
+.card-product .card-info .card-container-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-container-price .card-price {
+  font-size: 1.25rem;
+  font-weight: var(--semibold);
+  color: #3a3a3a;
+}
+.card-price.past-price {
+  text-decoration: line-through;
+  font-size: 1rem;
+  font-weight: var(--regular);
+  color: #b0b0b0;
+}
+.products .container-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.products .container-btn button {
+  cursor: pointer;
+  display: block;
+  border: 1px solid #b88e2f;
+  background: transparent;
+  width: 245px;
+  height: 48px;
+  font-size: 1rem;
+  font-weight: var(--semibold);
+  color: #b88e2f;
+}

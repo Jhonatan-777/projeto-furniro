@@ -1,0 +1,45 @@
+.services-bg {
+  background: #fff;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services h2 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: var(--bold);
+  color: #333333;
+}
+.services > p {
+  font-size: 1.25rem;
+  font-weight: var(--regular);
+  color: #666666;
+  margin-bottom: 60px;
+}
+.services > .card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.card-service .card-image {
+  overflow: hidden;
+  border-radius: 10px;
+  width: 380px;
+  height: 480px;
+  margin-bottom: 30px;
+}
+.card-service .card-image img {
+  width: 100%;
+  height: 100%;
+}
+.services .card-service p {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: var(--semibold);
+  color: #333333;
+}
